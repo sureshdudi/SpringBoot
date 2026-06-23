@@ -18,3 +18,6 @@ public interface AccountsRepository extends JpaRepository<Accounts, Long> {
     void deleteByCustomerId(Long customerId);
 
 }
+
+
+// Added code from  suresk feature bug fix 2122
